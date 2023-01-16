@@ -1,5 +1,5 @@
 class Conta {
-	private double saldo;
+	double saldo;
 	int agencia;
 	int numero;
 	Cliente titular;
@@ -25,8 +25,7 @@ class Conta {
 		return false;
 	}
 	
-	public double getSaldo(){
-		return this.saldo;
+	public double getSaldo() {
+		return saldo;
 	}
-	
 }
